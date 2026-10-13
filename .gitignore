@@ -1,0 +1,26 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+app/build
+.kotlin
+
+# Builds nativos do port
+build/
+app/src/main/jniLibs/
+
+# Assets do jogo — NUNCA versionados (usuário fornece / CI baixa via secret)
+# .xex, ISOs e qualquer conteúdo protegido do jogo ficam FORA do repositório.
+*.xex
+*.iso
+recomp/assets/*
+!recomp/assets/.gitkeep
+recomp/generated/
+thirdparty-src/
+.ghtoken
